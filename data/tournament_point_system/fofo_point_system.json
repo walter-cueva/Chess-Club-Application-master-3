@@ -12,7 +12,7 @@
                     "TT12345"
                 ],
                 "completed": true,
-                "winner": "TT12345"
+                "winner": null
             },
             {
                 "players": [
@@ -62,12 +62,12 @@
     ],
     "Player Points": [
         {
-            "Player": "TT12345",
-            "Points": 3
+            "Player": "AA12345",
+            "Points": 2.5
         },
         {
-            "Player": "AA12345",
-            "Points": 2
+            "Player": "TT12345",
+            "Points": 2.5
         },
         {
             "Player": "WW12345",

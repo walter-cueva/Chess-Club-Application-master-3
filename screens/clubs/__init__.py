@@ -1,4 +1,4 @@
 from .create import ClubCreate
 from .view import ClubView
 
-__all__ = ["ClubCreate", "ClubView", "MainMenu", "PlayerView"]
+__all__ = ["ClubCreate", "ClubView"]

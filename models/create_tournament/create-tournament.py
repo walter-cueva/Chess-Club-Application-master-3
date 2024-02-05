@@ -39,7 +39,8 @@ def create_chess_tournament():
     pairings = generate_pairings(tournament_data["players"])
     tournament_data["rounds"] = distribute_into_rounds(pairings)
 
-    filename = f"{tournament_data['name'].replace(' ', '_').lower()}-{'completed' if tournament_data['completed'] else 'in-progress'}.json"
+    filename = (f"{tournament_data['name'].replace(' ', '_').lower()}"
+                f"-{'completed' if tournament_data['completed'] else 'in-progress'}.json")
     save_directory = '/Users/waltercueva/Downloads/Chess-Club-Application-master 3/data/tournaments'
     os.makedirs(save_directory, exist_ok=True)
     file_path = os.path.join(save_directory, filename)
