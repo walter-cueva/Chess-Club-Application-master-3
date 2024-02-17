@@ -35,7 +35,7 @@ class TournamentCreator:
             "number_of_rounds": int(input("Enter number of rounds: ")),
             "current_round": 1,
             "completed": False,
-            "players": [],  # This will be filled later
+            "players": [],
             "rounds": []
         }
 
